@@ -197,7 +197,7 @@ section h2 {
 }
 
 /* Skills Section */
-#skills .skills-icons-grid {
+#habilidades .skills-icons-grid {
     display: grid;
     grid-template-columns: 1fr; /* Default for flexibility */
     gap: 30px;
@@ -205,30 +205,30 @@ section h2 {
 }
 
 @media (min-width: 1200px) {
-    #skills .skills-icons-grid {
+    #habilidades .skills-icons-grid {
         grid-template-columns: repeat(5, 1fr);
     }
 }
 
 @media (max-width: 992px) {
-    #skills .skills-icons-grid {
+    #habilidades .skills-icons-grid {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
 @media (max-width: 768px) {
-    #skills .skills-icons-grid {
+    #habilidades .skills-icons-grid {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (max-width: 480px) {
-    #skills .skills-icons-grid {
+    #habilidades .skills-icons-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-#skills .skill-item {
+#habilidades .skill-item {
     background-color: var(--secondary-bg);
     padding: 20px;
     border-radius: 10px;
@@ -239,18 +239,18 @@ section h2 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#skills .skill-item:hover {
+#habilidades .skill-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.4);
 }
 
-#skills .skill-item i {
+#habilidades .skill-item i {
     font-size: 3.5em;
     color: var(--accent-color);
     margin-bottom: 10px;
 }
 
-#skills .skill-item p {
+#habilidades .skill-item p {
     font-size: 1em;
     color: var(--text-color);
     font-weight: bold;
